@@ -1,10 +1,10 @@
+///////////////////// EXAMPLE ONLY /////////////////////
 describe("Hello world", function() {
   it("says hello", function() {
     expect(helloWorld()).toEqual("Hello world!");
   });
 });
 
-///////////////////// EXAMPLE ONLY /////////////////////
 //Begin unit testing here with opening "describe() function"
 describe("The specification for basic math", function() {
 

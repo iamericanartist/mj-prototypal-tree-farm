@@ -7,7 +7,81 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+
+  <h1>Pear and Oak Tree Orchard Simulator</h1>
+  <h3>Modern JavaScript / Prototypal / Orchard Simulator</h3>
+  <hr>
   
+  <div>    
+    <h3>Instructions</h3>
+    <p>Use Jasmine to write your unit tests before you begin writing <strong>any</strong> implementation code.</p>
+    <h4>Unit Tests</h4>
+    <ol>
+      <li>There should be a <code>Plant</code> function defined.</li>
+      <li>There should be a <code>Tree</code> function defined.</li>
+      <li>There should be a function named <code>increaseHeight</code> on the prototype of Plant.</li>
+      <li>There should be a function named <code>decreaseHeight</code> on the prototype of Plant.</li>
+      <li>There should be a <code>height</code> property on Plant.</li>
+      <li>There should be a function named <code>grow</code> on the prototype of Tree.</li>
+      <li>There should be a function named <code>trim</code> on the prototype of Tree.</li>
+      <li>When you invoke the <code>trim</code> method on Tree, the height of the Tree should be reduced by the integer value that is passed as an argument (e.g. <code>PearTree.trim(2)</code>)</li>
+      <li>When you invoke the <code>trim</code> method on Tree, the values of the <code>branches</code> property should be decreased by one.</li>
+      <li>When you invoke the <code>grow</code> method on Tree, the height of the Tree should be increased by the integer value that is passed as an argument (e.g. <code>PearTree.grow(2)</code>)</li>
+    </ol>
+    <hr>
+    <h4>Requirements & Behavior</h4>
+      <blockquote>
+        <p>Reference: Checkout the <a href="https://developer.mozilla.org/en-US/docs/Web/API/WindowTimers/setInterval">setInterval</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/API/WindowTimers/clearInterval">clearInterval</a> functions in JavaScript</p>
+      </blockquote>
+
+    <ol>
+    <li>Create a Plant function.</li>
+    <li>Create a Tree function.</li>
+    <li>Plant should be the prototype of Tree.</li>
+    <li>Plant should have a property of <code>height</code>.</li>
+    <li>The Plant prototype should have two methods on it: <code>increaseHeight</code> and <code>decreaseHeight</code>. Each method should accept an integer value as input.</li>
+
+      <blockquote>
+        Plant.prototype.increaseHeight = function (growth) {
+
+        }
+      </blockquote>
+
+    <li><code>increaseHeight</code> should increase the value of the <code>height</code> property by the amount passed in as an argument.</li>
+    <li><code>decreaseHeight</code> should decrease the value of the <code>height</code> property by the amount passed in as an argument.</li>
+    <li>Tree should have a property of <code>branches</code>.</li>
+    <li>The Tree prototype should have two methods on it: <code>grow</code> and <code>trim</code>.</li>
+    <li>The <code>grow</code> method should accept an integer value as input.</li>
+    <li>The <code>grow</code> method should increase the height of the tree.</li>
+    <li>The <code>trim</code> method should accept an integer value as input.</li>
+
+      <blockquote>
+        Tree.prototype.grow = function (amount) {
+
+        }
+      </blockquote>
+
+    <li>The <code>trim</code> method should decrease the height of the tree.</li>
+    <li>When the <code>trim</code> method is called, the number of branches should decrease by one.</li>
+    <li>Each time the height of a tree increases by 10, the value of <code>branch</code> should increase by one.</li>
+    <li>Create a PearTree instance of Tree. <code>var PearTree = new Tree();</code></li>
+    <li>Create an OakTree instance of Tree.</li>
+    <li>Every second, increase the height the pear tree by some integer value and increase the height the oak tree by some integer value that is <strong>larger</strong> than what you used for the pear tree.</li>
+    <li>Also output the current height of each tree and how many branches it has to the DOM.</li>
+
+      <blockquote>
+        <p>Pear tree is now 23cm tall and has 2 branches</p>
+
+        <p>Oak tree is now 57cm tall and has 4 branches</p>
+      </blockquote></li>
+
+    <li><p>Every tenth time the trees are grown, invoke the <code>trim</code> method. Pass one value to the method for the pear tree, and a larger value to the method on the oak tree.</p></li>
+    <li>Stop growing the trees after they have grown 30 times.</li>
+    </ol>
+
+    <p><img src="img/orchard.gif" alt="Orchard Simulation" style="max-width:100%;"></p>
+  </div>
+
   <script src="js/main.js"></script>
 </body>
 </html>
