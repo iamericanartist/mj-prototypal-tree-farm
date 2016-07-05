@@ -1,7 +1,7 @@
 # Pear and Oak Tree Orchard Simulator
 ## Modern JavaScript / Prototypal / Orchard Simulator
 
-![Orchard](img/orchard.jpg?raw=true "Orchard Screenshot")
+![Orchard](img/treefarm.jpg?raw=true "Orchard Screenshot")
 [Check it out on CODEPEN](http://codepen.io/IAmericanArtist/pen/JKJrkR)
 
 ## Instructions
