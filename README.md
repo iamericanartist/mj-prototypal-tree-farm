@@ -4,10 +4,6 @@
 ![Orchard](img/treefarm.jpg?raw=true "Orchard Screenshot")
 [Check it out on CODEPEN](http://codepen.io/IAmericanArtist/pen/JKJrkR)
 
-<p align="center">
-  <img src="img/orchardLrgWConANIMATED.gif?raw=true" alt="Growing Trees"/>
-</p>
-
 ***
 ## Instructions
 Use Jasmine to write your unit tests before you begin writing **any** implementation code.
@@ -72,4 +68,8 @@ Use Jasmine to write your unit tests before you begin writing **any** implementa
 
 <p align="center">
   <img src="img/orchard.gif?raw=true" alt="Growing Trees"/>
+</p>
+
+<p align="center">
+  <img src="img/orchardLrgWConANIMATED.gif?raw=true" alt="Growing Trees"/>
 </p>
