@@ -10,7 +10,7 @@ Use Jasmine to write your unit tests before you begin writing **any** implementa
 
 ### Unit Tests
 
-1. There should be a `Plant` function defined.
+<!-- 1. There should be a `Plant` function defined. -->
 <!-- 1. There should be a `Tree` function defined. -->
 <!-- 1. There should be a function named `increaseHeight` on the prototype of Plant. -->
 <!-- 1. There should be a function named `decreaseHeight` on the prototype of Plant. -->
