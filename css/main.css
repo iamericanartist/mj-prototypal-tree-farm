@@ -27,10 +27,33 @@ body {
   overflow: hidden;
   background: #cde;
   box-shadow: 0px 10px 20px rgba(100,100,100,0.5);
-  transform: rotate(-1.5deg) translate(0px, 0px) scale(1.0);
+  transform: rotate(-1deg) translate(0px, 0px) scale(1.0);
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: indigo;
   margin: 12px 0 2px;
+}
+
+.pear {
+  color: green;
+}
+.oak {
+  color: brown;
+}
+.unitTests {
+  color: purple;
+}
+.requirements li {
+  color: darkgreen;
+}
+
+#exampleGif {
+  float: right;
+  margin: 20px;
+  padding: 5px;
+  border: 3px solid indigo;
+  border-radius: 4px;
+  background-color: white;
+  box-shadow: 0px 4px 10px rgba(50,50,50,.5);
 }
