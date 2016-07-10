@@ -12,8 +12,10 @@
   <h3>Modern JavaScript / Prototypal / Orchard Simulator</h3>
   <hr>
 
+  <div id="outputEl"></div>
+
   <div>    
-    <h3>Instructions</h3>
+<!--     <h3>Instructions</h3>
     <p>Use Jasmine to write your unit tests before you begin writing <strong>any</strong> implementation code.</p>
     <h4>Unit Tests</h4>
     <ol>
@@ -27,7 +29,7 @@
       <li>When you invoke the <code>trim</code> method on Tree, the height of the Tree should be reduced by the integer value that is passed as an argument (e.g. <code>PearTree.trim(2)</code>)</li>
       <li>When you invoke the <code>trim</code> method on Tree, the values of the <code>branches</code> property should be decreased by one.</li>
       <li>When you invoke the <code>grow</code> method on Tree, the height of the Tree should be increased by the integer value that is passed as an argument (e.g. <code>PearTree.grow(2)</code>)</li>
-    </ol>
+    </ol> -->
     <hr>
     <h4>Requirements & Behavior</h4>
       <blockquote>
@@ -35,7 +37,7 @@
       </blockquote>
 
     <ol>
-    <li>Create a Plant function.</li>
+<!--     <li>Create a Plant function.</li>
     <li>Create a Tree function.</li>
     <li>Plant should be the prototype of Tree.</li>
     <li>Plant should have a property of <code>height</code>.</li>
@@ -65,7 +67,7 @@
     <li>When the <code>trim</code> method is called, the number of branches should decrease by one.</li>
     <li>Each time the height of a tree increases by 10, the value of <code>branch</code> should increase by one.</li>
     <li>Create a PearTree instance of Tree. <code>var PearTree = new Tree();</code></li>
-    <li>Create an OakTree instance of Tree.</li>
+    <li>Create an OakTree instance of Tree.</li> -->
     <li>Every second, increase the height the pear tree by some integer value and increase the height the oak tree by some integer value that is <strong>larger</strong> than what you used for the pear tree.</li>
     <li>Also output the current height of each tree and how many branches it has to the DOM.</li>
 
@@ -82,6 +84,7 @@
     <p><img src="img/orchard.gif" alt="Orchard Simulation" style="max-width:100%;"></p>
   </div>
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
