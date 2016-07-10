@@ -27,23 +27,24 @@ describe("The specifications for growing plants and trees", function(){
   })
 
 // 6. There should be a function named `grow` on the prototype of Tree.
-  it("should have a funcion named 'grow' on the prototype of Tree", function(){
+  it("should have a function named 'grow' on the prototype of Tree", function(){
     expect(Tree.prototype.grow).toBeDefined();
   })
 
 // 7. There should be a function named `trim` on the prototype of Tree.
-  it("should have a funcion named 'trim' on the prototype of Tree", function(){
+  it("should have a function named 'trim' on the prototype of Tree", function(){
     expect(Tree.prototype.trim).toBeDefined();
   })
 
 
 // 8. When you invoke the `trim` method on Tree, the height of the Tree should be reduced by the integer value that is passed as an argument (e.g. `PearTree.trim(2)`)
-
+  // To finish (Trello ToDo)
 
 // 9. When you invoke the `trim` method on Tree, the values of the `branches` property should be decreased by one.
-
+  // To finish (Trello ToDo)
 
 // 10. When you invoke the `grow` method on Tree, the height of the Tree should be increased by the integer value that is passed as an argument (e.g. `PearTree.grow(2)`)
+  // To finish (Trello ToDo)
 
 
 }); //closing of our ORCHARD DESCRIPTION function
