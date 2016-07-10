@@ -5,7 +5,7 @@
 [Check it out on CODEPEN](http://codepen.io/IAmericanArtist/pen/JKJrkR)
 
 <p align="center">
-  <img src="img/orchandANIMATED.gif?raw=true" alt="Growing Trees"/>
+  <img src="img/orchardLrgWConANIMATED.gif?raw=true" alt="Growing Trees"/>
 </p>
 
 ***
@@ -73,4 +73,3 @@ Use Jasmine to write your unit tests before you begin writing **any** implementa
 <p align="center">
   <img src="img/orchard.gif?raw=true" alt="Growing Trees"/>
 </p>
-![Orchard Simulation](img/orchard.gif)
